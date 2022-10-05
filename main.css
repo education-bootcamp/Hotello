@@ -28,10 +28,43 @@
 }
 .logo-outer > img{
     height: 50px;
-   /* border: 1px solid red;*/
 }
 .nav-bar-context{
     border: 1px solid red;
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
+
+/*nav*/
+.nav{
+    list-style: none;
+    display: flex;
+}
+.nav > li > span > a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.nav > li{
+    margin: 0 15px;
+    border-right: 1px solid white;
+    padding: 5px 15px;
+}
+.nav > li:last-child{
+    border-right: 0;
+    padding-right: 0;
+}
+
+.nav > li:hover{
+    cursor: pointer;
+    border: 1px solid red;
+}
+/*.nav > li:nth-child(3){
+    border-bottom: 1px solid white;
+}*/
+/*nav*/
+
 /*nav styles*/
