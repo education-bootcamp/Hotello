@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 .main-slider-outer{
     width: 100%;
@@ -49,9 +52,10 @@
     text-transform: uppercase;
 }
 .nav > li{
-    margin: 0 15px;
-    border-right: 1px solid white;
-    padding: 5px 15px;
+    border-right: 1px solid #bdc3c7;
+    padding: 5px 25px;
+    border-bottom: 2px solid transparent;
+    transition: 1s ease-in-out;
 }
 .nav > li:last-child{
     border-right: 0;
@@ -60,7 +64,11 @@
 
 .nav > li:hover{
     cursor: pointer;
-    border: 1px solid red;
+    /*border-bottom: 2px solid white;*/
+    border-color: white;
+}
+.nav > li:hover > span > a{
+    color: #FE500A;
 }
 /*.nav > li:nth-child(3){
     border-bottom: 1px solid white;
