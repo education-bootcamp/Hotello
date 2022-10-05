@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-slider-outer{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://wallpapershome.com/images/wallpapers/miami-3840x2160-south-beach-hotel-pool-sunbed-water-palm-sky-sea-1130.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*nav styles*/
+
+.nav-outer{
+    width: 100%;
+    height: 70px;
+    background-color: #0F172B;
+
+    display: flex;
+}
+.logo-outer{
+    /*border: 1px solid red;*/
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-outer > img{
+    height: 50px;
+   /* border: 1px solid red;*/
+}
+.nav-bar-context{
+    border: 1px solid red;
+    flex: 1;
+}
+/*nav styles*/
