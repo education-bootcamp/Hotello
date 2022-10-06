@@ -363,6 +363,11 @@ body::-webkit-scrollbar-thumb {
     /*border: 1px solid red;*/
     background-size: cover;
     background-position: center;
+    transition: 0.5s ease-in-out;
+}
+.service-inner:hover{
+    cursor: pointer;
+    margin-top: -40px;
 }
 .service-inner:first-child{
     background-image: url("https://img.freepik.com/free-photo/breakfast-wooden-table-with-natural-view_53876-139868.jpg?w=360&t=st=1664989239~exp=1664989839~hmac=4975a7f7b986395ed0e2f989bebf042de67b180635958c888883e826315973f7");
