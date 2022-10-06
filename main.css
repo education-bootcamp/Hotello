@@ -25,6 +25,22 @@ body::-webkit-scrollbar-thumb{
     position: fixed;
     right: 0;
     bottom: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.social-inner-wrap{
+    flex: 1;
+    border: 1px solid black;
+    position: relative;
+}
+.slide-context{
+    background-color: black;
+    width: 150px;
+    height: 100%;
+    position: absolute;
+}
+.social-inner-wrap:hover > .slide-context{
+    right: 49px;
 }
 /*social style*/
 
