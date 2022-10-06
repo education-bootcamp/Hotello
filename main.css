@@ -376,4 +376,9 @@ body::-webkit-scrollbar-thumb {
 .service-inner:last-child{
     background-image: url("https://img.freepik.com/free-photo/banquet-table-with-snacks_144627-18360.jpg?w=360&t=st=1664989296~exp=1664989896~hmac=6b55dcabc8816eff9253a57fdad9e19e625de3dda8991caaec55b9377a5fc4c9");
 }
+.shadow-wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15,23,43,0.5);
+}
 /*Services style*/
