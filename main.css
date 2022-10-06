@@ -237,21 +237,71 @@ body::-webkit-scrollbar-thumb {
 .middle-text-outer{
     width: 100%;
     height: 150px;
-    border: 1px solid red;
+   /* border: 1px solid red;*/
     position: relative;
 }
 .book-today-text{
     text-align: center;
     font-family: 'Dancing Script', cursive;
-    color: white;
+    color: #0A5AFE;
     font-size: 55px;
 }
 .weekend-offer-text{
     text-align: center;
-    color: white;
+    color: #0A5AFE;
     font-weight: bold;
     font-family: 'Alkalami', serif;
 }
 /*slider-middle-text style*/
+
+/*booking-widget-style*/
+.widget-main-outer{
+    width: 100%;
+    height: 70px;
+   /* border: 1px solid red;*/
+    margin-top: 50px;
+}
+.widget-inner{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+}
+.widget-components-wrapper:first-child{
+    width: 40%;
+}
+.widget-components-wrapper{
+    height: 100%;
+   /* border: 1px solid red;*/
+    width: 20%;
+    display: flex;
+}
+.widget-components-wrapper > input[type=date],
+.widget-components-wrapper > select{
+    flex: 1;
+    padding: 0 20px;
+    font-size: 16px;
+    border: none;
+}
+.widget-components-wrapper > input[type=date]:focus,
+.widget-components-wrapper > select:focus
+{
+    outline: none;
+}
+.widget-components-wrapper > input[type=submit]{
+    flex: 1;
+    border: none;
+    background-color: #FF500A;
+    color: white;
+    font-size: 16px;
+}
+.widget-components-wrapper > input[type=submit]:hover{
+    background-color: #0F172B;
+    color: white;
+    cursor: pointer;
+}
+
+/*booking-widget-style*/
 
 /*nav styles*/
