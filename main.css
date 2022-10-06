@@ -350,3 +350,30 @@ body::-webkit-scrollbar-thumb {
     margin-top: -40px;
 }
 /*about styles*/
+
+/*Services style*/
+.service-main-outer{
+    width: 100%;
+    height: 500px;
+   /* border: 1px solid red;*/
+    display: flex;
+}
+.service-inner{
+    flex: 1;
+    /*border: 1px solid red;*/
+    background-size: cover;
+    background-position: center;
+}
+.service-inner:first-child{
+    background-image: url("https://img.freepik.com/free-photo/breakfast-wooden-table-with-natural-view_53876-139868.jpg?w=360&t=st=1664989239~exp=1664989839~hmac=4975a7f7b986395ed0e2f989bebf042de67b180635958c888883e826315973f7");
+}
+.service-inner:nth-child(2){
+    background-image: url("https://img.freepik.com/free-photo/relax-corner-room_1150-18006.jpg?w=360&t=st=1664989261~exp=1664989861~hmac=1d6d5c2b7a73f45c0312e51141d0d9f44a49d263bdd8b0cbf43aab698ccef453");
+}
+.service-inner:nth-child(3){
+    background-image: url("https://img.freepik.com/free-photo/sexy-blonde-woman-posing-luxury-hotel_496169-585.jpg?w=360&t=st=1664989275~exp=1664989875~hmac=9ea2a3f6a2b116053183d4455e670f15bb60cd04500dfe0fb44fbb83ce0a3334");
+}
+.service-inner:last-child{
+    background-image: url("https://img.freepik.com/free-photo/banquet-table-with-snacks_144627-18360.jpg?w=360&t=st=1664989296~exp=1664989896~hmac=6b55dcabc8816eff9253a57fdad9e19e625de3dda8991caaec55b9377a5fc4c9");
+}
+/*Services style*/
